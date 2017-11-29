@@ -1,0 +1,89 @@
+body {
+    margin-top: 0;
+}
+header {
+    /* color: white; */
+    background-color: saddlebrown; 
+    text-align: center;
+    margin-top: -20px;
+    height: 80px;
+    /* padding: 1em; */
+    font-family: cursive;
+    text-decoration: underline;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+h1 {
+    padding: 7px;
+}
+
+.header-font {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+footer {
+    /* padding: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    bottom: 0; */
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: saddlebrown;
+    text-align: center;
+    color: darkgoldenrod;
+}
+  
+
+  h2 {
+      background-color: cornsilk;
+      height: 70px;
+      /* padding: 30px 30px 50px 30px; */
+      padding-top: 20px;
+      
+  }
+
+  .home-h2 {
+      color: saddlebrown;
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 0;
+      
+  }
+
+  li {
+      display: inline;
+      
+  }
+
+  ul {
+      list-style-type: none;
+      background-color: tan;
+      height: 35px;
+      padding-top: 6px;
+  }
+
+  li a {
+    display: block inline;
+    padding: 8px;
+    /* background-color: #dddddd; */
+    color: saddlebrown;
+    
+    }
+
+    li a:hover {
+        text-decoration: none;
+        color: yellow;
+    }
+
+    .contact-h1 {
+        color: saddlebrown;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    

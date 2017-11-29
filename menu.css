@@ -1,0 +1,19 @@
+/* table {
+    padding: 40px 250px 40px 250px;
+} */
+
+td {
+    text-align: center;
+    font-style: italic;
+    background-color: tan;
+}
+
+th {
+    background-color: saddlebrown;
+    color: white;
+}
+
+.th-align-center {
+    text-align: center;
+}
+

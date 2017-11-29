@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RestaurantSite</title>
+    
+    <link rel="stylesheet" href="./restaurantStyles.css">
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/> 
+
+<!-- Optional theme -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/> 
+</head>
+<body>
+
+<header>
+   <h1 class="header-font">Cheers</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+    <li><a href="menu.html">    Menu</a></li>
+    <li><a href="contact.html">   Contact Us</a></li>
+  </ul>
+  <br>
+  <br>
+</nav>
+
+<h1 class="text-center contact-h1">Contact Us</h1>
+
+<div class="container jumbotron">
+
+    <form action="fakePage.html" method="POST">
+
+      <div class="form-group">
+        Name: <input type="text" name="myTextInput" />
+        <br>
+        Email: <input type="text" name="myTextInput" />
+        <br>
+        Phone: <input type="text" name="myTextInput" />
+      </div>
+
+        <br>
+
+      <div class="form-group">
+        Reason for Inquiry:
+        <select name="phones">
+          <option value="catering">Catering</option>
+          <option value="privateParty">Private Party</option>
+          <option value="feedback">Feedback</option>
+          <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="briefDescription"></textarea>
+      </div>
+
+        <br/>
+
+      <div class="form-group">
+        Have you been to the restaurant:<br/>
+        <input type="radio" name="answer" value="Yes" checked/>Yes
+        <input type="radio" name="answer" value="No"/>No
+        <br/>
+        <br>
+      </div>
+
+      <div class="form-group">
+        Best Days to Contact: 
+        <br>
+        <input type="checkbox" name="myChoices" value="Soup" checked/>Soup
+        <input type="checkbox" name="myChoices" value="Salad" checked/>Salad
+        <input type="checkbox" name="myChoices" value="Fries" checked/>Fries
+        <input type="checkbox" name="myChoices" value="Desert" checked/>Desert<br/>
+        <br>
+        <input type="submit"/> <br/>
+      </div>
+    </form>
+
+</div>
+
+<footer>Beacon Hill, 84 Beacon St., Boston, MA 02108 <br>(617) 227-9605</footer>
+
+</div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script>
+
+</body>
+</html>
