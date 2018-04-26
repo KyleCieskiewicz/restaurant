@@ -2,6 +2,14 @@
     padding: 40px 250px 40px 250px;
 } */
 
+.container-fluid {
+    background-color: azure;
+}
+
+nav {
+    background-color: azure;
+}
+
 td {
     text-align: center;
     font-style: italic;

@@ -64,8 +64,8 @@ footer {
   ul {
       list-style-type: none;
       background-color: tan;
-      height: 35px;
-      padding-top: 6px;
+      /* height: 35px;
+      padding-top: 6px; */
   }
 
   li a {
